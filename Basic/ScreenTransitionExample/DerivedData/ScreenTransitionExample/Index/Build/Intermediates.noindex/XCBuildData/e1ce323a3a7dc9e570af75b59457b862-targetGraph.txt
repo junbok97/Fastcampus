@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-ScreenTransitionExample in ScreenTransitionExample, no dependencies
-ScreenTransitionExample in ScreenTransitionExample, no dependencies

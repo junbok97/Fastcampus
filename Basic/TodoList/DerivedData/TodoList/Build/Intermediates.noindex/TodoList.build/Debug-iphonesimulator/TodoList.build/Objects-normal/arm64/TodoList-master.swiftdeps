@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
-options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1648735007, 687688827]
-build_end_time: [1648735011, 58649063]
-inputs:
-  "/Users/junbok/Desktop/Swift/fastcampus/Basic/TodoList/TodoList/AppDelegate.swift": [1645592862, 904991626]
-  "/Users/junbok/Desktop/Swift/fastcampus/Basic/TodoList/TodoList/SceneDelegate.swift": [1645592862, 907073020]
-  "/Users/junbok/Desktop/Swift/fastcampus/Basic/TodoList/TodoList/Task.swift": [1645594715, 303456544]
-  "/Users/junbok/Desktop/Swift/fastcampus/Basic/TodoList/TodoList/ViewController.swift": [1645704265, 902180910]

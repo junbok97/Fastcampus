@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-QuotesGenerator in QuotesGenerator, no dependencies
-QuotesGenerator in QuotesGenerator, no dependencies
