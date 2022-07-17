@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0A114D22-2285-43C6-95C8-D4A141C7F6C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A114D22-2285-43C6-95C8-D4A141C7F6C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Diary project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Diary</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Diary</string>
+			<key>timeStartedRecording</key>
+			<real>676713590.04422498</real>
+			<key>timeStoppedRecording</key>
+			<real>676713590.74340606</real>
+			<key>title</key>
+			<string>Build Diary</string>
+			<key>uniqueIdentifier</key>
+			<string>0A114D22-2285-43C6-95C8-D4A141C7F6C0</string>
+		</dict>
+		<key>F9A66112-7F23-4D4E-A28E-2004E4A13ED5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F9A66112-7F23-4D4E-A28E-2004E4A13ED5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Diary project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Diary</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Diary</string>
+			<key>timeStartedRecording</key>
+			<real>676713559.68349302</real>
+			<key>timeStoppedRecording</key>
+			<real>676713578.26280499</real>
+			<key>title</key>
+			<string>Build Diary</string>
+			<key>uniqueIdentifier</key>
+			<string>F9A66112-7F23-4D4E-A28E-2004E4A13ED5</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

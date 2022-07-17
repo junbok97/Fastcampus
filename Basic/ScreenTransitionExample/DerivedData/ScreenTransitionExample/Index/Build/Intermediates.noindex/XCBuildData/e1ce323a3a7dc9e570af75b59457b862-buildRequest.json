@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "efe34fb8b61ca44732ce2fe6276178cb85856699be7762105c50f484aec2a997"
+    }
+  ],
+  "containerPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/ScreenTransitionExample.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Index/Build/Products",
+      "derivedDataPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/ScreenTransitionExample/DerivedData/ScreenTransitionExample/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

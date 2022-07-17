@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Diary in Diary, no dependencies
+Diary in Diary, no dependencies

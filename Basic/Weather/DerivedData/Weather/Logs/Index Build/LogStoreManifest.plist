@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>03AC1BF4-BA53-4073-B6B2-014268E14ED2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>03AC1BF4-BA53-4073-B6B2-014268E14ED2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Weather Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>675445366.99742496</real>
+			<key>timeStoppedRecording</key>
+			<real>675445367.00700796</real>
+			<key>title</key>
+			<string>Weather Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>03AC1BF4-BA53-4073-B6B2-014268E14ED2</string>
+		</dict>
+		<key>95958F9D-F290-49CD-96DA-2ACDC35B6475</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>95958F9D-F290-49CD-96DA-2ACDC35B6475.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Workspace Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>675445366.95837605</real>
+			<key>timeStoppedRecording</key>
+			<real>675445366.99548602</real>
+			<key>title</key>
+			<string>Workspace Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>95958F9D-F290-49CD-96DA-2ACDC35B6475</string>
+		</dict>
+		<key>9A10A943-B1F2-4450-9623-8641C0147B8C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>9A10A943-B1F2-4450-9623-8641C0147B8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Weather Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>675305577.095824</real>
+			<key>timeStoppedRecording</key>
+			<real>675305577.19765103</real>
+			<key>title</key>
+			<string>Weather Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>9A10A943-B1F2-4450-9623-8641C0147B8C</string>
+		</dict>
+		<key>B251AFE3-8752-4494-9EF9-6B617DF5BE23</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>B251AFE3-8752-4494-9EF9-6B617DF5BE23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Workspace Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>675445365.910658</real>
+			<key>timeStoppedRecording</key>
+			<real>675445366.00612199</real>
+			<key>title</key>
+			<string>Workspace Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>B251AFE3-8752-4494-9EF9-6B617DF5BE23</string>
+		</dict>
+		<key>E079EBE3-5938-410E-9FB0-7FFD0B8BAF30</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>E079EBE3-5938-410E-9FB0-7FFD0B8BAF30.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Weather Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>675445366.95897996</real>
+			<key>timeStoppedRecording</key>
+			<real>675445366.99540806</real>
+			<key>title</key>
+			<string>Weather Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>E079EBE3-5938-410E-9FB0-7FFD0B8BAF30</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

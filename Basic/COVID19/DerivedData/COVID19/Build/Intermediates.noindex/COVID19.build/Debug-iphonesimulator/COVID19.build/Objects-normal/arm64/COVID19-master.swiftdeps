@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "539510f7600ab112547b2970970b8ff5e6c097b7cf43e9236091f6bd3bf13cfc"
+build_start_time: [1653652800, 473137855]
+build_end_time: [1653652802, 427864074]
+inputs:
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/COVID19/COVID19/AppDelegate.swift": [1646981676, 114708423]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/COVID19/COVID19/CityCovidOverview.swift": [1647000181, 6453037]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/COVID19/COVID19/CovidDetailViewController.swift": [1647002194, 723330497]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/COVID19/COVID19/SceneDelegate.swift": [1646981676, 118598937]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/COVID19/COVID19/ViewController.swift": [1653652789, 991762638]

@@ -1,0 +1,64 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "6b13b02ac3b34ebbbfeb9d3c08ad47476be90e377d95d60935547008c516694b"
+    }
+  ],
+  "containerPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData/Weather/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData/Weather/Build/Products",
+      "derivedDataPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData/Weather/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData/Weather/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/DerivedData/Weather/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "6853F626-11B2-4353-8194-1CDED1A744AD",
+          "TARGET_DEVICE_MODEL" : "iPhone14,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

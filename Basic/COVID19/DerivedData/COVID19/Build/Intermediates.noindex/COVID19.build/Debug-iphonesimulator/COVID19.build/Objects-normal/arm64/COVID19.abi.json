@@ -1,0 +1,4660 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Charts",
+      "printedName": "Charts",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "totalCaseLabel",
+          "printedName": "totalCaseLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(py)totalCaseLabel",
+          "mangledName": "$s7COVID1914ViewControllerC14totalCaseLabelSo7UILabelCSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)totalCaseLabel",
+              "mangledName": "$s7COVID1914ViewControllerC14totalCaseLabelSo7UILabelCSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)setTotalCaseLabel:",
+              "mangledName": "$s7COVID1914ViewControllerC14totalCaseLabelSo7UILabelCSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1914ViewControllerC14totalCaseLabelSo7UILabelCSgvM",
+              "mangledName": "$s7COVID1914ViewControllerC14totalCaseLabelSo7UILabelCSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "newCaseLabel",
+          "printedName": "newCaseLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(py)newCaseLabel",
+          "mangledName": "$s7COVID1914ViewControllerC12newCaseLabelSo7UILabelCSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)newCaseLabel",
+              "mangledName": "$s7COVID1914ViewControllerC12newCaseLabelSo7UILabelCSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)setNewCaseLabel:",
+              "mangledName": "$s7COVID1914ViewControllerC12newCaseLabelSo7UILabelCSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1914ViewControllerC12newCaseLabelSo7UILabelCSgvM",
+              "mangledName": "$s7COVID1914ViewControllerC12newCaseLabelSo7UILabelCSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "labelStackView",
+          "printedName": "labelStackView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIStackView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(py)labelStackView",
+          "mangledName": "$s7COVID1914ViewControllerC010labelStackB0So07UIStackB0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIStackView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIStackView",
+                      "printedName": "UIKit.UIStackView",
+                      "usr": "c:objc(cs)UIStackView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)labelStackView",
+              "mangledName": "$s7COVID1914ViewControllerC010labelStackB0So07UIStackB0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIStackView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIStackView",
+                      "printedName": "UIKit.UIStackView",
+                      "usr": "c:objc(cs)UIStackView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)setLabelStackView:",
+              "mangledName": "$s7COVID1914ViewControllerC010labelStackB0So07UIStackB0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1914ViewControllerC010labelStackB0So07UIStackB0CSgvM",
+              "mangledName": "$s7COVID1914ViewControllerC010labelStackB0So07UIStackB0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "pieChartView",
+          "printedName": "pieChartView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "Charts.PieChartView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(py)pieChartView",
+          "mangledName": "$s7COVID1914ViewControllerC08pieChartB06Charts03PieeB0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Charts.PieChartView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PieChartView",
+                      "printedName": "Charts.PieChartView",
+                      "usr": "c:@M@Charts@objc(cs)PieChartView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)pieChartView",
+              "mangledName": "$s7COVID1914ViewControllerC08pieChartB06Charts03PieeB0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Charts.PieChartView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PieChartView",
+                      "printedName": "Charts.PieChartView",
+                      "usr": "c:@M@Charts@objc(cs)PieChartView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)setPieChartView:",
+              "mangledName": "$s7COVID1914ViewControllerC08pieChartB06Charts03PieeB0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1914ViewControllerC08pieChartB06Charts03PieeB0CSgvM",
+              "mangledName": "$s7COVID1914ViewControllerC08pieChartB06Charts03PieeB0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "indicatorView",
+          "printedName": "indicatorView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIActivityIndicatorView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(py)indicatorView",
+          "mangledName": "$s7COVID1914ViewControllerC09indicatorB0So019UIActivityIndicatorB0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIActivityIndicatorView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIActivityIndicatorView",
+                      "printedName": "UIKit.UIActivityIndicatorView",
+                      "usr": "c:objc(cs)UIActivityIndicatorView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)indicatorView",
+              "mangledName": "$s7COVID1914ViewControllerC09indicatorB0So019UIActivityIndicatorB0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIActivityIndicatorView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIActivityIndicatorView",
+                      "printedName": "UIKit.UIActivityIndicatorView",
+                      "usr": "c:objc(cs)UIActivityIndicatorView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)ViewController(im)setIndicatorView:",
+              "mangledName": "$s7COVID1914ViewControllerC09indicatorB0So019UIActivityIndicatorB0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1914ViewControllerC09indicatorB0So019UIActivityIndicatorB0CSgvM",
+              "mangledName": "$s7COVID1914ViewControllerC09indicatorB0So019UIActivityIndicatorB0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s7COVID1914ViewControllerC11viewDidLoadyyF",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeCovidOverViewList",
+          "printedName": "makeCovidOverViewList(cityCovidOverview:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[COVID19.CovidOverview]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CityCovidOverview",
+              "printedName": "COVID19.CityCovidOverview",
+              "usr": "s:7COVID1917CityCovidOverviewV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1914ViewControllerC013makeCovidOverB4List04cityE8OverviewSayAA0eI0VGAA04CityeI0V_tF",
+          "mangledName": "$s7COVID1914ViewControllerC013makeCovidOverB4List04cityE8OverviewSayAA0eI0VGAA04CityeI0V_tF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "configureChartView",
+          "printedName": "configureChartView(covidOverviewList:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[COVID19.CovidOverview]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1914ViewControllerC014configureChartB017covidOverviewListySayAA05CovidG0VG_tF",
+          "mangledName": "$s7COVID1914ViewControllerC014configureChartB017covidOverviewListySayAA05CovidG0VG_tF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFormatString",
+          "printedName": "removeFormatString(string:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1914ViewControllerC18removeFormatString6stringSdSS_tF",
+          "mangledName": "$s7COVID1914ViewControllerC18removeFormatString6stringSdSS_tF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "configureStackView",
+          "printedName": "configureStackView(koreaCovidOverview:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1914ViewControllerC014configureStackB018koreaCovidOverviewyAA0gH0V_tF",
+          "mangledName": "$s7COVID1914ViewControllerC014configureStackB018koreaCovidOverviewyAA0gH0V_tF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchCovidOVerview",
+          "printedName": "fetchCovidOVerview(completionHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<COVID19.CityCovidOverview, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<COVID19.CityCovidOverview, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CityCovidOverview",
+                      "printedName": "COVID19.CityCovidOverview",
+                      "usr": "s:7COVID1917CityCovidOverviewV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1914ViewControllerC18fetchCovidOVerview17completionHandleryys6ResultOyAA04CityE8OverviewVs5Error_pGc_tF",
+          "mangledName": "$s7COVID1914ViewControllerC18fetchCovidOVerview17completionHandleryys6ResultOyAA04CityE8OverviewVs5Error_pGc_tF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "COVID19.ViewController",
+              "usr": "c:@M@COVID19@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s7COVID1914ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "COVID19.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "COVID19.ViewController",
+                  "usr": "c:@M@COVID19@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s7COVID1914ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "chartValueSelected",
+          "printedName": "chartValueSelected(_:entry:highlight:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChartViewBase",
+              "printedName": "Charts.ChartViewBase",
+              "usr": "c:@M@Charts@objc(cs)ChartViewBase"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChartDataEntry",
+              "printedName": "Charts.ChartDataEntry",
+              "usr": "c:@M@Charts@objc(cs)ChartDataEntry"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Highlight",
+              "printedName": "Charts.Highlight",
+              "usr": "c:@M@Charts@objc(cs)ChartHighlight"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@COVID19@objc(cs)ViewController(im)chartValueSelected:entry:highlight:",
+          "mangledName": "$s7COVID1914ViewControllerC18chartValueSelected_5entry9highlighty6Charts05ChartB4BaseC_AG0J9DataEntryCAG9HighlightCtF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "chartValueSelected:entry:highlight:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@COVID19@objc(cs)ViewController",
+      "mangledName": "$s7COVID1914ViewControllerC",
+      "moduleName": "COVID19",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ChartViewDelegate",
+          "printedName": "ChartViewDelegate",
+          "usr": "c:@M@Charts@objc(pl)ChartViewDelegate",
+          "mangledName": "$s6Charts17ChartViewDelegateP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Charts",
+      "printedName": "Charts",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s7COVID1911AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s7COVID1911AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s7COVID1911AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "COVID19.AppDelegate",
+              "usr": "c:@M@COVID19@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s7COVID1911AppDelegateCACycfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1911AppDelegateC5$mainyyFZ",
+          "mangledName": "$s7COVID1911AppDelegateC5$mainyyFZ",
+          "moduleName": "COVID19",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@COVID19@objc(cs)AppDelegate",
+      "mangledName": "$s7COVID1911AppDelegateC",
+      "moduleName": "COVID19",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Charts",
+      "printedName": "Charts",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CovidDetailViewController",
+      "printedName": "CovidDetailViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "newCaseCell",
+          "printedName": "newCaseCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)newCaseCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC11newCaseCellSo07UITabledH0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)newCaseCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC11newCaseCellSo07UITabledH0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setNewCaseCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC11newCaseCellSo07UITabledH0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC11newCaseCellSo07UITabledH0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC11newCaseCellSo07UITabledH0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "totalCaseCell",
+          "printedName": "totalCaseCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)totalCaseCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC13totalCaseCellSo07UITabledH0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)totalCaseCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13totalCaseCellSo07UITabledH0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setTotalCaseCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13totalCaseCellSo07UITabledH0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC13totalCaseCellSo07UITabledH0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13totalCaseCellSo07UITabledH0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "recoveredCell",
+          "printedName": "recoveredCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)recoveredCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC13recoveredCellSo07UITabledG0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)recoveredCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13recoveredCellSo07UITabledG0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setRecoveredCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13recoveredCellSo07UITabledG0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC13recoveredCellSo07UITabledG0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC13recoveredCellSo07UITabledG0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "deathCell",
+          "printedName": "deathCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)deathCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC9deathCellSo07UITabledG0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)deathCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC9deathCellSo07UITabledG0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setDeathCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC9deathCellSo07UITabledG0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC9deathCellSo07UITabledG0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC9deathCellSo07UITabledG0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "percentageCell",
+          "printedName": "percentageCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)percentageCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC14percentageCellSo07UITabledG0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)percentageCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC14percentageCellSo07UITabledG0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setPercentageCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC14percentageCellSo07UITabledG0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC14percentageCellSo07UITabledG0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC14percentageCellSo07UITabledG0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "overseasInflowCell",
+          "printedName": "overseasInflowCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)overseasInflowCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC18overseasInflowCellSo07UITabledH0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)overseasInflowCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC18overseasInflowCellSo07UITabledH0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setOverseasInflowCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC18overseasInflowCellSo07UITabledH0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC18overseasInflowCellSo07UITabledH0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC18overseasInflowCellSo07UITabledH0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "regionalOutbreakCell",
+          "printedName": "regionalOutbreakCell",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITableViewCell?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(py)regionalOutbreakCell",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC20regionalOutbreakCellSo07UITabledH0CSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)regionalOutbreakCell",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC20regionalOutbreakCellSo07UITabledH0CSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITableViewCell?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITableViewCell",
+                      "printedName": "UIKit.UITableViewCell",
+                      "usr": "c:objc(cs)UITableViewCell"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)setRegionalOutbreakCell:",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC20regionalOutbreakCellSo07UITabledH0CSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC20regionalOutbreakCellSo07UITabledH0CSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC20regionalOutbreakCellSo07UITabledH0CSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "covidOverView",
+          "printedName": "covidOverView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "COVID19.CovidOverview?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvp",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "COVID19.CovidOverview?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CovidOverview",
+                      "printedName": "COVID19.CovidOverview",
+                      "usr": "s:7COVID1913CovidOverviewV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvg",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "COVID19.CovidOverview?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CovidOverview",
+                      "printedName": "COVID19.CovidOverview",
+                      "usr": "s:7COVID1913CovidOverviewV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvs",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvM",
+              "mangledName": "$s7COVID1925CovidDetailViewControllerC09covidOverD0AA0B8OverviewVSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)viewDidLoad",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC11viewDidLoadyyF",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "configureView",
+          "printedName": "configureView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1925CovidDetailViewControllerC09configureD0yyF",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC09configureD0yyF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidDetailViewController",
+              "printedName": "COVID19.CovidDetailViewController",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Style",
+              "printedName": "UIKit.UITableView.Style",
+              "usr": "c:@E@UITableViewStyle"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)initWithStyle:",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC5styleACSo07UITableD5StyleV_tcfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithStyle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidDetailViewController",
+              "printedName": "COVID19.CovidDetailViewController",
+              "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "COVID19.CovidDetailViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidDetailViewController",
+                  "printedName": "COVID19.CovidDetailViewController",
+                  "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController(im)initWithCoder:",
+          "mangledName": "$s7COVID1925CovidDetailViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@COVID19@objc(cs)CovidDetailViewController",
+      "mangledName": "$s7COVID1925CovidDetailViewControllerC",
+      "moduleName": "COVID19",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Charts",
+      "printedName": "Charts",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CityCovidOverview",
+      "printedName": "CityCovidOverview",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "korea",
+          "printedName": "korea",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV5koreaAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5koreaAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV5koreaAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV5koreaAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "seoul",
+          "printedName": "seoul",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV5seoulAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5seoulAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV5seoulAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV5seoulAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "busan",
+          "printedName": "busan",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV5busanAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5busanAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV5busanAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV5busanAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "daegu",
+          "printedName": "daegu",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV5daeguAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5daeguAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV5daeguAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV5daeguAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "incheon",
+          "printedName": "incheon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7incheonAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7incheonAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7incheonAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7incheonAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gwangju",
+          "printedName": "gwangju",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7gwangjuAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7gwangjuAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7gwangjuAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7gwangjuAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "daejeon",
+          "printedName": "daejeon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7daejeonAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7daejeonAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7daejeonAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7daejeonAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "ulsan",
+          "printedName": "ulsan",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV5ulsanAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5ulsanAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV5ulsanAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV5ulsanAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "sejong",
+          "printedName": "sejong",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV6sejongAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV6sejongAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV6sejongAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV6sejongAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gyeonggi",
+          "printedName": "gyeonggi",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV8gyeonggiAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV8gyeonggiAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV8gyeonggiAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV8gyeonggiAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gangwon",
+          "printedName": "gangwon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7gangwonAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7gangwonAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7gangwonAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7gangwonAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "chungbuk",
+          "printedName": "chungbuk",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV8chungbukAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV8chungbukAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 11,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV8chungbukAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV8chungbukAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "chungnam",
+          "printedName": "chungnam",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV8chungnamAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV8chungnamAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 12,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV8chungnamAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV8chungnamAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "jeonbuk",
+          "printedName": "jeonbuk",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7jeonbukAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7jeonbukAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 13,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7jeonbukAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7jeonbukAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "jeonnam",
+          "printedName": "jeonnam",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV7jeonnamAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV7jeonnamAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 14,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV7jeonnamAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV7jeonnamAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gyeongbuk",
+          "printedName": "gyeongbuk",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV9gyeongbukAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV9gyeongbukAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 15,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV9gyeongbukAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV9gyeongbukAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gyeongnam",
+          "printedName": "gyeongnam",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV9gyeongnamAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV9gyeongnamAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 16,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV9gyeongnamAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV9gyeongnamAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "jeju",
+          "printedName": "jeju",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1917CityCovidOverviewV4jejuAA0cD0Vvp",
+          "mangledName": "$s7COVID1917CityCovidOverviewV4jejuAA0cD0Vvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 17,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CovidOverview",
+                  "printedName": "COVID19.CovidOverview",
+                  "usr": "s:7COVID1913CovidOverviewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1917CityCovidOverviewV4jejuAA0cD0Vvg",
+              "mangledName": "$s7COVID1917CityCovidOverviewV4jejuAA0cD0Vvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1917CityCovidOverviewV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s7COVID1917CityCovidOverviewV6encode2toys7Encoder_p_tKF",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CityCovidOverview",
+              "printedName": "COVID19.CityCovidOverview",
+              "usr": "s:7COVID1917CityCovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7COVID1917CityCovidOverviewV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s7COVID1917CityCovidOverviewV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(korea:seoul:busan:daegu:incheon:gwangju:daejeon:ulsan:sejong:gyeonggi:gangwon:chungbuk:chungnam:jeonbuk:jeonnam:gyeongbuk:gyeongnam:jeju:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CityCovidOverview",
+              "printedName": "COVID19.CityCovidOverview",
+              "usr": "s:7COVID1917CityCovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7COVID1917CityCovidOverviewV5korea5seoul5busan5daegu7incheon7gwangju7daejeon5ulsan6sejong8gyeonggi7gangwon8chungbuk8chungnam7jeonbuk7jeonnam9gyeongbuk9gyeongnam4jejuAcA0cD0V_A17Wtcfc",
+          "mangledName": "$s7COVID1917CityCovidOverviewV5korea5seoul5busan5daegu7incheon7gwangju7daejeon5ulsan6sejong8gyeonggi7gangwon8chungbuk8chungnam7jeonbuk7jeonnam9gyeongbuk9gyeongnam4jejuAcA0cD0V_A17Wtcfc",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:7COVID1917CityCovidOverviewV",
+      "mangledName": "$s7COVID1917CityCovidOverviewV",
+      "moduleName": "COVID19",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CovidOverview",
+      "printedName": "CovidOverview",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "countryName",
+          "printedName": "countryName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV11countryNameSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV11countryNameSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV11countryNameSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV11countryNameSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "newCase",
+          "printedName": "newCase",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV7newCaseSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV7newCaseSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV7newCaseSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV7newCaseSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "totalCase",
+          "printedName": "totalCase",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV9totalCaseSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV9totalCaseSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV9totalCaseSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV9totalCaseSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "recovered",
+          "printedName": "recovered",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV9recoveredSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV9recoveredSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV9recoveredSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV9recoveredSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "death",
+          "printedName": "death",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV5deathSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV5deathSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV5deathSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV5deathSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "percentage",
+          "printedName": "percentage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV10percentageSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV10percentageSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV10percentageSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV10percentageSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "newCcase",
+          "printedName": "newCcase",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV8newCcaseSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV8newCcaseSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV8newCcaseSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV8newCcaseSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "newFcase",
+          "printedName": "newFcase",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7COVID1913CovidOverviewV8newFcaseSSvp",
+          "mangledName": "$s7COVID1913CovidOverviewV8newFcaseSSvp",
+          "moduleName": "COVID19",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913CovidOverviewV8newFcaseSSvg",
+              "mangledName": "$s7COVID1913CovidOverviewV8newFcaseSSvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7COVID1913CovidOverviewV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s7COVID1913CovidOverviewV6encode2toys7Encoder_p_tKF",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(countryName:newCase:totalCase:recovered:death:percentage:newCcase:newFcase:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7COVID1913CovidOverviewV11countryName7newCase05totalG09recovered5death10percentage0F5Ccase0F5FcaseACSS_S7Stcfc",
+          "mangledName": "$s7COVID1913CovidOverviewV11countryName7newCase05totalG09recovered5death10percentage0F5Ccase0F5FcaseACSS_S7Stcfc",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CovidOverview",
+              "printedName": "COVID19.CovidOverview",
+              "usr": "s:7COVID1913CovidOverviewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7COVID1913CovidOverviewV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s7COVID1913CovidOverviewV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "COVID19",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:7COVID1913CovidOverviewV",
+      "mangledName": "$s7COVID1913CovidOverviewV",
+      "moduleName": "COVID19",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Charts",
+      "printedName": "Charts",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COVID19"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s7COVID1913SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s7COVID1913SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s7COVID1913SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7COVID1913SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s7COVID1913SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "COVID19",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s7COVID1913SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s7COVID1913SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s7COVID1913SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s7COVID1913SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s7COVID1913SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s7COVID1913SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "COVID19",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "COVID19.SceneDelegate",
+              "usr": "c:@M@COVID19@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@COVID19@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s7COVID1913SceneDelegateCACycfc",
+          "moduleName": "COVID19",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@COVID19@objc(cs)SceneDelegate",
+      "mangledName": "$s7COVID1913SceneDelegateC",
+      "moduleName": "COVID19",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

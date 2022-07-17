@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1649736295, 163861036]
+build_end_time: [1649736298, 469949960]
+inputs:
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather/AppDelegate.swift": [1646970300, 825767040]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather/ErrorMessage.swift": [1646972381, 345858097]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather/SceneDelegate.swift": [1646970300, 829279899]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather/ViewController.swift": [1646978507, 695992469]
+  "/Users/junbok/Desktop/Swift/fastcampus/Basic/Weather/Weather/WeatherInfomation.swift": [1646971457, 822479009]

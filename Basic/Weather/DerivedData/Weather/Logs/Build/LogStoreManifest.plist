@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>FAF4284C-8E43-4AEB-A69C-4BF7B9C424AC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FAF4284C-8E43-4AEB-A69C-4BF7B9C424AC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Weather project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Weather</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Weather</string>
+			<key>timeStartedRecording</key>
+			<real>671429094.69366896</real>
+			<key>timeStoppedRecording</key>
+			<real>671429099.03568804</real>
+			<key>title</key>
+			<string>Build Weather</string>
+			<key>uniqueIdentifier</key>
+			<string>FAF4284C-8E43-4AEB-A69C-4BF7B9C424AC</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
